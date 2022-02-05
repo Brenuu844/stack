@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1644100485 source:c:\stack\stack\test.c
+	"stack.h"
+	<assert.h>
+	<stdbool.h>
+
+1644100484 c:\stack\stack\stack.h
+	"stdbool.h"
+
+1644100542 source:c:\stack\stack\stack.c
+	"stack.h"
+	<stdbool.h>
+	<stdlib.h>
+
