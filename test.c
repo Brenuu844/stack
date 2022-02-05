@@ -26,11 +26,45 @@ void testPush()
     freeStack(stack);
 }
 
+void testPop()
+{
+    Stack *stack;
+
+    stack = createStack();
+
+    push(stack, 10);
+
+    pop(stack);
+
+    assert(isEmpty(stack) == true);
+
+    freeStack(stack);
+}
+
+void testPopValue()
+{
+    const int valueTest = 10;
+
+    Stack *stack;
+
+    stack = createStack();
+
+    push(stack, valueTest);
+
+    assert(pop(stack) == valueTest);
+
+    freeStack(stack);
+}
+
 int main()
 {
     testCreate();
 
     testPush();
+
+    testPop();
+
+    testPopValue();
 
     return 0;
 }

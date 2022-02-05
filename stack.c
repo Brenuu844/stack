@@ -45,3 +45,16 @@ void push(Stack* stack, int value)
     stack->first = node;
     node->data = value;
 }
+
+int pop(Stack* stack)
+{
+    Node *currentNode;
+    int rc;
+
+    currentNode = stack->first;
+    rc = currentNode->data;
+    stack->first = currentNode->next;
+    free(currentNode);
+
+    return rc;
+}
