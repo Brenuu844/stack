@@ -58,3 +58,8 @@ int pop(Stack* stack)
 
     return rc;
 }
+
+int top(Stack* stack)
+{
+    return stack->first->data;
+}

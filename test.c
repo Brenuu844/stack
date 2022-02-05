@@ -56,6 +56,40 @@ void testPopValue()
     freeStack(stack);
 }
 
+void testTop()
+{
+    Stack *stack;
+    const int valueTest = 10;
+
+    stack = createStack();
+
+    push(stack, valueTest);
+
+    top(stack);
+
+    assert(isEmpty(stack) == false);
+
+    freeStack(stack);
+}
+
+void testTopValue()
+{
+    int value;
+    const int valueTest = 10;
+
+    Stack *stack;
+
+    stack = createStack();
+
+    push(stack, valueTest);
+
+    value = top(stack);
+
+    assert(value == valueTest);
+
+    freeStack(stack);
+}
+
 int main()
 {
     testCreate();
@@ -65,6 +99,10 @@ int main()
     testPop();
 
     testPopValue();
+
+    testTop();
+
+    testTopValue();
 
     return 0;
 }

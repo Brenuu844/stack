@@ -1,13 +1,13 @@
 # depslib dependency file v1.0
-1644100485 source:c:\stack\stack\test.c
+1644102246 source:c:\stack\stack\test.c
 	"stack.h"
 	<assert.h>
 	<stdbool.h>
 
-1644101370 c:\stack\stack\stack.h
+1644102106 c:\stack\stack\stack.h
 	"stdbool.h"
 
-1644101454 source:c:\stack\stack\stack.c
+1644102104 source:c:\stack\stack\stack.c
 	"stack.h"
 	<stdbool.h>
 	<stdlib.h>
