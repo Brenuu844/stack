@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1644102246 source:c:\stack\stack\test.c
+1644106517 source:c:\stack\stack\test.c
 	"stack.h"
 	<assert.h>
 	<stdbool.h>
@@ -11,4 +11,9 @@
 	"stack.h"
 	<stdbool.h>
 	<stdlib.h>
+
+1644110608 source:c:\stack\stack\testtranferstack.c
+	"stack.h"
+	<string.h>
+	<assert.h>
 

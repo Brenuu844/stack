@@ -90,7 +90,7 @@ void testTopValue()
     freeStack(stack);
 }
 
-int main()
+/*int main()
 {
     testCreate();
 
@@ -106,3 +106,4 @@ int main()
 
     return 0;
 }
+*/

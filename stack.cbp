@@ -31,7 +31,14 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="main.c">
+		<Unit filename="stack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="stack.h" />
+		<Unit filename="test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="testTranferStack.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
