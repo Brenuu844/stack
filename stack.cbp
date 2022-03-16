@@ -31,6 +31,9 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="lexer.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="stack.c">
 			<Option compilerVar="CC" />
 		</Unit>
@@ -38,9 +41,13 @@
 		<Unit filename="test.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="testToken.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="testTranferStack.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="token.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
